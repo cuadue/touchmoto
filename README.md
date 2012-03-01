@@ -25,6 +25,9 @@ and you can move your target around to get the curve you want.
 
 If you don't see a turning circle, you aren't turning.
 
+You can't turn more than 180 degrees at a time because that just doesn't
+make sense. Sorry, no donuts.
+
 ## Versions
 There is an Android version and a PyGame version. Android is clunky, but it
 works. The pygame version is fun to hack on. Good for prototyping.
