@@ -7,11 +7,7 @@ data_dir = os.path.join(main_dir, 'data')
 
 def load_image(name, colorkey=None):
     fullname = os.path.join(data_dir, name)
-    try:
-        result = pygame.image.load(fullname)
-    except pygame.error:
-        print ('Cannot load image:', fullname)
-        raise SystemExit(str(pygame.geterror()))
+    result = pygame.image.load(fullname)
     result = result.convert()
     if colorkey is not None:
         if colorkey is -1:

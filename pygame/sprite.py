@@ -1,5 +1,2 @@
-from pygame.sprite import Sprite as PygameSprite
+from pygame.sprite import Sprite
 
-class Sprite(PygameSprite):
-    def __init__(self, *args, **kwargs):
-        super(Sprite, self).__init__(*args, **kwargs)
