@@ -18,7 +18,6 @@ class Target(pygame.sprite.Sprite):
         self.visible = self.tracking = 1
 
     def unplace(self):
-        "returns true if the fist collides with the target"
         self.tracking = self.visible = 0
         
     def update(self):

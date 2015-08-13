@@ -19,7 +19,6 @@ def main():
 
     player = Bike()
 
-    # huge TODO is AI
     bikes = [player]
     
     # This is a bit of a hack
